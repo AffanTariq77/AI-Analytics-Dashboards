@@ -22,14 +22,14 @@ const Footer = () => {
             className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center leading-tight px-2"
             style={{ color: "#192841" }}
           >
-            Ready to Build a Product That Lasts?
+            Your Data Already Has the Answers.
           </h2>
           <p className="text-xs xs:text-sm sm:text-base md:text-lg text-[#23395d] max-w-2xl mx-auto text-center leading-relaxed px-2">
-            Let’s discuss your roadmap and how our embedded team can accelerate your journey from ideation to deployment.
+            See your business clearly with AI-powered analytics designed to drive action, not just awareness.
           </p>
          <DialogTrigger asChild>
                 <Button className="bg-primary hover:bg-sky-400 text-primary-foreground hover:shadow-sky-blue text-xs xs:text-sm sm:text-base py-2 sm:py-3 px-4 xs:px-6 sm:px-8">
-                  Book a Technical Discovery Call
+                  Start Building Your Dashboard
                 </Button>
           </DialogTrigger>
         </div>

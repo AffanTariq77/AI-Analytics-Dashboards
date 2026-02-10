@@ -10,24 +10,24 @@ const AudienceSegments = () => {
   const segments = [
     {
       icon: Rocket,
-      title: "Early-Stage Startups: Speed to Market.",
+      title: "C-Suite Executives: The 30,000ft View.",
       description:
-        "You need a partner who can build a V1 in weeks, not months. We handle the tech so you can handle the fundraising.",
-      cta: "Launch MVP",
+        "Instant visibility into cash flow, burn rate, and high-level growth metrics without asking for a report.",
+      cta: "Build Executive View",
     },
     {
       icon: Users,
-      title: "Growth-Stage Companies: Refactoring & Scaling.",
+      title: "Marketing & Sales: ROI Attribution.",
       description:
-        "You have traction, but your tech is breaking. We stabilize your legacy code and prepare your infrastructure for Series A/B growth.",
-      cta: "Scale Infrastructure",
+        "Track campaign performance, lead velocity, and pipeline health in real-time to optimize spend.",
+      cta: "Track Marketing ROI",
     },
     {
       icon: Building2,
-      title: "Enterprise Innovation: New Digital Products.",
+      title: "Operations Leads: Supply & Efficiency.",
       description:
-        "You need to launch a new internal tool or customer portal without disrupting core IT. We build secure, isolated environments.",
-      cta: "Build Internal Tools",
+        "Monitor inventory levels, logistics bottlenecks, and resource utilization to prevent downtime.",
+      cta: "Optimize Operations",
     },
   ];
 
@@ -51,10 +51,10 @@ const AudienceSegments = () => {
               className="text-4xl md:text-5xl font-bold mb-4"
               style={{ color: "#192841" }}
             >
-              Engineering for Every Stage
+              Dashboards for Every Decision Maker
             </h2>
             <p className="text-xl text-muted-foreground">
-              Tailored engagement models for your growth phase.
+              Role-based views that give the right data to the right people.
             </p>
           </div>
 

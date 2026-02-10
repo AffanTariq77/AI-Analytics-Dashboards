@@ -5,43 +5,43 @@ const Process = () => {
   const steps = [
     {
       number: "01",
-      title: "Understand (Discovery)",
+      title: "Ingest (Connect)",
       description:
-        "We dive deep into user personas and business logic to define the \"Definition of Done.\"",
+        "We build secure pipelines to ingest raw data from your APIs, databases, and spreadsheets.",
       details:
-        "We clarify success criteria, product scope, and constraints before any architecture decisions are made.",
+        "We connect sources with proper access controls and validation to keep data reliable from day one.",
     },
     {
       number: "02",
-      title: "Architect (System Design)",
+      title: "Model (Structure)",
       description:
-        "We select the right stack and database schema to prevent bottlenecks before they happen.",
+        "We clean and normalize the data, applying business logic and ML models to structure it for analysis.",
       details:
-        "We blueprint systems, data flow, and security requirements so your product scales without rework.",
+        "We unify definitions and create a consistent, trusted layer for reporting and AI.",
     },
     {
       number: "03",
-      title: "Build (Sprints)",
+      title: "Visualize (Design)",
       description:
-        "Rapid 2-week agile sprints where you see working features deployed to a staging environment.",
+        "We design intuitive, role-based dashboards that prioritize clarity and user experience.",
       details:
-        "We deliver iteratively with clear demos, measurable progress, and tight feedback loops.",
+        "We focus on the few metrics that drive decisions, not noise.",
     },
     {
       number: "04",
-      title: "Iterate (QA/UAT)",
+      title: "Analyze (AI Layer)",
       description:
-        "Rigorous testing cycles to squash bugs and refine UI/UX based on stakeholder feedback.",
+        "We overlay AI tools for anomaly detection and natural language querying.",
       details:
-        "We validate edge cases, performance, and usability before production release.",
+        "We enable teams to ask questions and get answers without bottlenecks.",
     },
     {
       number: "05",
-      title: "Scale (Launch)",
+      title: "Evolve (Refine)",
       description:
-        "We handle the DevOps, CI/CD setup, and final deployment to ensure a smooth public release.",
+        "We continuously refine the insights and data models as your business grows and metrics change.",
       details:
-        "We monitor, stabilize, and prepare your product for real-world traffic and growth.",
+        "We keep your dashboard aligned to new KPIs and shifting priorities.",
     },
   ];
 
@@ -75,10 +75,10 @@ const Process = () => {
             className="text-4xl md:text-5xl font-bold mb-4"
             style={{ color: "#192841" }}
           >
-            The Development Lifecycle
+            The Intelligence Pipeline
           </h2>
           <p className="text-xl text-muted-foreground">
-            From whiteboard to production.
+            How we turn raw noise into clear signals.
           </p>
         </div>
 

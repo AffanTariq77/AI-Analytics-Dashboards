@@ -7,19 +7,19 @@ const Impact = () => {
             className="text-4xl md:text-5xl font-bold mb-4"
             style={{ color: "#192841" }}
           >
-            The "Product Excellence" Gap
+            The End of "Vanity Metrics"
           </h2>
           <p className="text-xl text-muted-foreground mb-6">
-            Most agencies deliver what you ask for, even if it’s wrong for your scale.
+            We build tools for decision-making, not just observation.
           </p>
           <div className="text-lg text-muted-foreground leading-relaxed space-y-4">
             <p>
-              We operate differently. We take ownership of the why behind every feature.
+              Most dashboards fail because they are cluttered and retrospective. We combine data engineering, machine learning, and intuitive UX design to surface Actionable Intelligence.
             </p>
             <ul className="text-base sm:text-lg text-muted-foreground list-disc pl-6 space-y-2">
-              <li>No "Yes-Men": We challenge assumptions to ensure you're building the right product.</li>
-              <li>Future-Proof: We write clean, modular code that doesn't need a rewrite six months later.</li>
-              <li>Commercial Focus: Every line of code is written with your user acquisition and retention goals in mind.</li>
+              <li>Real-Time Health: Monitor KPIs continuously, not manually.</li>
+              <li>Automated Alerts: Get notified the moment a metric goes off-track.</li>
+              <li>Drill-Down Capability: Go from a high-level executive summary to granular row-level data in two clicks.</li>
             </ul>
           </div>
         </div>

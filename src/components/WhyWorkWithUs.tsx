@@ -5,21 +5,21 @@ import { Brain, Rocket, Zap } from "lucide-react";
 const pillars = [
   {
     icon: Brain,
-    title: "Embedded Teams",
+    title: "Action-Oriented Design",
     description:
-      "We don’t work for you; we work as you. Our engineers integrate directly into your Slack and Jira, ensuring complete transparency and culture alignment.",
+      "Every widget and chart is tied to a decision, alert, or next step. We ruthlessly eliminate \"vanity metrics\" that look good but offer no business value.",
   },
   {
     icon: Rocket,
-    title: "Sustainable Velocity",
+    title: "Secure & Role-Based Access",
     description:
-      "Speed matters, but not if it breaks everything. We prioritize clean architecture and automated testing so your development speed doesn't tank six months after launch.",
+      "Enterprise-grade security is standard. We implement Row-Level Security (RLS) and strict permissions, ensuring users only see the data they are authorized to access.",
   },
   {
     icon: Zap,
-    title: "Ownership Mindset",
+    title: "Tailored to Your Business",
     description:
-      "We treat your budget like our own. If a feature is too expensive and low-value, we will tell you. We measure our success by your product's performance, not billable hours.",
+      "No templates. We custom-build the data model around your specific KPIs, workflows, and terminology - so the data actually makes sense to your team.",
   },
 ];
 
@@ -43,10 +43,10 @@ const WhyWorkWithUs = () => {
             className="text-4xl md:text-5xl font-bold mb-4"
             style={{ color: "#192841" }}
           >
-            The "SV Standard" Difference
+            Why Our Dashboards Deliver Value
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We bring Silicon Valley engineering discipline to every project.
+            We bridge the gap between Data Engineering and Business Strategy.
           </p>
         </div>
         {/* SVG gradient definition rendered once */}

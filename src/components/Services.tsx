@@ -7,23 +7,23 @@ const Services = () => {
   const services = [
     {
       icon: Lightbulb,
-      title: "MVP Development",
+      title: "Natural Language Analytics (Talk to Your Data)",
       description: [
-        "Launch fast without the \"spaghetti code.\" We help startups find product-market fit with robust, scalable MVPs that are investor-ready and built to handle real user growth, not just a demo.",
+        "Stop writing SQL queries for simple answers. We integrate LLMs that allow non-technical stakeholders to ask questions in plain English (e.g., \"Why did churn increase last week?\") and get instant, visualized answers.",
       ],
     },
     {
       icon: Shield,
-      title: "Cloud-Native Systems",
+      title: "Predictive & Prescriptive Insights",
       description: [
-        "Scalable, secure, and resilient infrastructure built for the modern web. Whether it's a microservices architecture or a serverless backend, we ensure your platform stays up when traffic spikes.",
+        "Don't just track history; forecast the future. We embed ML models that predict demand, detect anomalies in real-time, and flag opportunities before they become problems.",
       ],
     },
     {
       icon: Puzzle,
-      title: "Mobile Experiences",
+      title: "Unified Source of Truth",
       description: [
-        "Native and cross-platform solutions that feel seamless. We build high-performance iOS and Android apps using modern frameworks that deliver 60fps smoothness under pressure.",
+        "We kill data silos. We bring data from CRMs, ERPs, Marketing tools, and Finance systems into a single, trusted view ensuring every department is looking at the same numbers.",
       ],
     },
   ];
@@ -62,10 +62,10 @@ const Services = () => {
               className="text-4xl md:text-5xl font-bold mb-4"
               style={{ color: "#192841" }}
             >
-              Core Engineering Services
+              Beyond Static Charts
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              We bridge the gap between "working code" and "product excellence."
+              Traditional dashboards show what happened. AI dashboards tell you why and what's next.
             </p>
           </div>
 

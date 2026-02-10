@@ -3,117 +3,101 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 
 const TechStack = () => {
-  // The Full-Stack Foundation
+  // The Data & Visualization Stack
   const techCategories = {
-    frontend: [
+    visualization: [
       {
-        name: "React",
+        name: "React (Custom)",
         details: {
-          title: "React",
-          desc: "Component-driven UI for scalable products",
+          title: "React (Custom)",
+          desc: "Bespoke, interactive dashboards",
           url: "https://react.dev/",
         },
       },
       {
-        name: "Next.js",
+        name: "Tableau",
         details: {
-          title: "Next.js",
-          desc: "Production-grade React framework",
-          url: "https://nextjs.org/",
+          title: "Tableau",
+          desc: "Enterprise BI visualization",
+          url: "https://www.tableau.com/",
         },
       },
       {
-        name: "Vue.js",
+        name: "PowerBI",
         details: {
-          title: "Vue.js",
-          desc: "Lightweight, flexible frontend framework",
-          url: "https://vuejs.org/",
+          title: "PowerBI",
+          desc: "Microsoft analytics suite",
+          url: "https://powerbi.microsoft.com/",
         },
       },
       {
-        name: "Tailwind CSS",
+        name: "Looker",
         details: {
-          title: "Tailwind CSS",
-          desc: "Utility-first styling for fast UI iteration",
-          url: "https://tailwindcss.com/",
-        },
-      },
-    ],
-    mobile: [
-      {
-        name: "Flutter",
-        details: {
-          title: "Flutter",
-          desc: "High-performance cross-platform apps",
-          url: "https://flutter.dev/",
-        },
-      },
-      {
-        name: "React Native",
-        details: {
-          title: "React Native",
-          desc: "Shared codebase for iOS and Android",
-          url: "https://reactnative.dev/",
+          title: "Looker",
+          desc: "Semantic modeling and BI",
+          url: "https://cloud.google.com/looker",
         },
       },
     ],
-    backend: [
+    warehousing: [
       {
-        name: "Node.js",
+        name: "Snowflake",
         details: {
-          title: "Node.js",
-          desc: "Event-driven backend services",
-          url: "https://nodejs.org/",
+          title: "Snowflake",
+          desc: "Cloud data warehousing",
+          url: "https://www.snowflake.com/",
         },
       },
       {
-        name: "Python (Django/FastAPI)",
+        name: "BigQuery",
+        details: {
+          title: "BigQuery",
+          desc: "Serverless analytics at scale",
+          url: "https://cloud.google.com/bigquery",
+        },
+      },
+      {
+        name: "Redshift",
+        details: {
+          title: "Redshift",
+          desc: "AWS data warehouse",
+          url: "https://aws.amazon.com/redshift/",
+        },
+      },
+    ],
+    processing: [
+      {
+        name: "dbt",
+        details: {
+          title: "dbt",
+          desc: "Transformations and modeling",
+          url: "https://www.getdbt.com/",
+        },
+      },
+      {
+        name: "Airflow",
+        details: {
+          title: "Airflow",
+          desc: "Workflow orchestration",
+          url: "https://airflow.apache.org/",
+        },
+      },
+    ],
+    ai: [
+      {
+        name: "Python (Pandas/Scikit-Learn)",
         details: {
           title: "Python",
-          desc: "Rapid APIs with Django or FastAPI",
+          desc: "ML modeling and data science",
           url: "https://www.python.org/",
         },
       },
       {
-        name: "Go",
+        name: "OpenAI",
         details: {
-          title: "Go",
-          desc: "High-throughput, reliable services",
-          url: "https://go.dev/",
-        },
-      },
-    ],
-    cloud: [
-      {
-        name: "AWS",
-        details: {
-          title: "AWS",
-          desc: "Scalable cloud infrastructure",
-          url: "https://aws.amazon.com/",
-        },
-      },
-      {
-        name: "Docker",
-        details: {
-          title: "Docker",
-          desc: "Containerized deployments",
-          url: "https://www.docker.com/",
-        },
-      },
-      {
-        name: "Kubernetes",
-        details: {
-          title: "Kubernetes",
-          desc: "Orchestration for resilient services",
-          url: "https://kubernetes.io/",
-        },
-      },
-      {
-        name: "Terraform",
-        details: {
-          title: "Terraform",
-          desc: "Infrastructure as code",
-          url: "https://www.terraform.io/",
+          title: "OpenAI",
+          desc: "Semantic search and NLQ",
+          url: "https://openai.com/",
         },
       },
     ],
@@ -164,20 +148,20 @@ const TechStack = () => {
             className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-3 xs:mb-4"
             style={{ color: "#192841" }}
           >
-            The Full-Stack Foundation
+            The Data & Visualization Stack
           </h2>
           <p className="text-sm xs:text-base sm:text-xl text-muted-foreground max-w-3xl mx-auto">
-            Modern tools for high-performance applications.
+            The engine behind your insights.
           </p>
         </div>
 
         <div className="max-w-5xl mx-auto">
-          <Tabs defaultValue="frontend" className="w-full">
+          <Tabs defaultValue="visualization" className="w-full">
             <TabsList className="grid grid-cols-2 sm:grid-cols-4 w-full mb-8 xs:mb-10 sm:mb-12 gap-1 xs:gap-2 h-auto p-1 xs:p-1.5">
-              <TabsTrigger value="frontend" className="text-xs xs:text-sm py-2 xs:py-3">Frontend</TabsTrigger>
-              <TabsTrigger value="mobile" className="text-xs xs:text-sm py-2 xs:py-3">Mobile</TabsTrigger>
-              <TabsTrigger value="backend" className="text-xs xs:text-sm py-2 xs:py-3">Backend</TabsTrigger>
-              <TabsTrigger value="cloud" className="text-xs xs:text-sm py-2 xs:py-3">Cloud</TabsTrigger>
+              <TabsTrigger value="visualization" className="text-xs xs:text-sm py-2 xs:py-3">Visualization</TabsTrigger>
+              <TabsTrigger value="warehousing" className="text-xs xs:text-sm py-2 xs:py-3">Warehousing</TabsTrigger>
+              <TabsTrigger value="processing" className="text-xs xs:text-sm py-2 xs:py-3">Processing</TabsTrigger>
+              <TabsTrigger value="ai" className="text-xs xs:text-sm py-2 xs:py-3">AI/ML</TabsTrigger>
             </TabsList>
             {Object.entries(techCategories).map(([key, technologies]) => (
               <TabsContent key={key} value={key} className="space-y-6 xs:space-y-8">
