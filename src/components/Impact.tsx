@@ -16,7 +16,7 @@ const Impact = () => {
             <p>
               Most dashboards fail because they are cluttered and retrospective. We combine data engineering, machine learning, and intuitive UX design to surface Actionable Intelligence.
             </p>
-            <ul className="text-base sm:text-lg text-muted-foreground list-disc pl-6 space-y-2">
+            <ul className="text-base sm:text-lg text-muted-foreground list-disc list-inside space-y-2 text-left max-w-3xl mx-auto">
               <li>Real-Time Health: Monitor KPIs continuously, not manually.</li>
               <li>Automated Alerts: Get notified the moment a metric goes off-track.</li>
               <li>Drill-Down Capability: Go from a high-level executive summary to granular row-level data in two clicks.</li>
